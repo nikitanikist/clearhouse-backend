@@ -1,0 +1,655 @@
+
+
+Canada RevenueAgence du revenu
+Agencydu Canada
+T1 2024
+ Income Tax and Benefit Return
+Protected B when completed
+8
+ON
+FarooqMian
+1818 Willow Way
+MississaugaONL5M 4Y5
+Identification
+First nameLast name
+Mailing address (apartment - number, street)
+PO BoxRR
+CityProv./Terr.   Postal code
+Email address
+By providing an email address, you are registering for email
+notifications and will no longer receive paper mail from the CRA. You 
+agree to the Terms of use found at 
+canada.ca/cra-email-notifications-terms.
+110 416 021
+1944-10-01
+Social insurance
+ number (SIN)
+Date of birth
+(Year Month Day)
+If this return is for
+a deceased person,
+enter the date of death
+(Year Month Day)
+X
+Marital status on
+December 31, 2024:
+1    Married
+2    Living common-law
+3    Widowed
+4    Divorced
+5    Separated
+6    Single
+X
+Your language of correspondence:  English
+Votre langue de correspondance :  Français
+Ontario
+Residence information
+Your province or territory of residence on December 31, 2024:
+Your current province or territory of residence if it is different than
+your mailing address above:
+Provinces or territories where your businesses had permanent
+establishments if you were self-employed in 2024:
+If you became a resident of Canada
+in 2024 for income tax purposes, (Month Day)
+enter your date of entry:
+If you ceased to be a resident
+of Canada in 2024 for income
+tax purposes, enter your (Month Day)
+date of departure:
+Rushda
+Their first name
+461 936 734
+Their SIN
+86,294 18
+Your spouse's or common-law partner's information 
+Tick this box if they were self-employed in 2024.1 
+Net income from line 23600 of their return to claim certain credits 
+(or the amount that it would be if they filed a return, even if the amount is "0")
+Amount of universal child care benefit (UCCB) from line 11700 of their return
+Amount of UCCB repayment from line 21300 of their return
+Do not use this area.
+Do not use
+this area.
+ 17200 
+    
+ 17100 
+    
+        
+5006-R E (24)(Ce formulaire est disponible en français.)Page 1 of 8
+If this return is for a deceased person, enter their information on this page.
+For more information, go to canada.ca/taxes-deceased-file-final-return.
+Attach to your paper return only the documents that are requested to support your deduction, claim, or expense. Keep all other
+documents in case the Canada Revenue Agency (CRA) asks to see them later. 
+Step 1 – Identification and other information
+
+X
+X
+Elections Canada
+For more information, go to canada.ca/cra-elections-canada.
+A) Do you have Canadian citizenship?
+If yes, go to question B. If no, skip question B.1 Yes  2    No
+B)  As a Canadian citizen, do you authorize the CRA to give your name,
+address, date of birth, and citizenship to Elections Canada to update the National Register
+of Electors or, if you are 14 to 17 years of age, the Register of Future Electors?1 Yes  2    No
+Your authorization is valid until you file your next tax return. Your information will only be used for purposes permitted
+under the Canada Elections Act, which include sharing lists of electors produced from the National Register of Electors
+with provincial and territorial electoral agencies, members of Parliament, registered and eligible political parties and
+candidates at election time.
+Your information in the Register of Future Electors will be included in the National Register of Electors once you turn 18 and your eligibility to vote is
+confirmed. Information from the Register of Future Electors can be shared only with provincial and territorial electoral agencies that are allowed to collect
+future elector information. In addition, Elections Canada can use information in the Register of Future Electors to provide youth with educational
+information about the electoral process.
+Indian Act – Exempt income
+Tick this box if you have income that is exempt under the Indian Act.
+For more information about this type of income, go to canada.ca/taxes-indigenous-peoples. 1 
+If you ticked the box above, complete Form T90, Income Exempt from Tax under the Indian Act, so that the CRA can
+calculate your Canada workers benefit for the 2024 tax year, if applicable, and your family’s provincial or territorial benefits.
+The information you provide on Form T90 will also be used to calculate your Canada training credit limit for the 2025 tax year.
+Canada Carbon Rebate
+Tick this box if you reside outside of a census metropolitan area (CMA) in Ontario or
+within a rural area or small population centre of a CMA, as determined by Statistics Canada
+(2021), and expect to continue to reside outside the same CMA or within a rural area or
+small population centre of the same CMA on April 1, 2025. For more information, go to canada.ca/canada-carbon-rebate.1 
+Note:  If your marital status is married or living common-law, and both you and your spouse or common-law partner were
+residing in the same location outside of a CMA or within a rural area or small population centre of a CMA, you must
+tick this box on both of your returns.
+X
+Foreign property
+Did you own or hold specified foreign property where the total cost amount of all such property,
+at any time in 2024, was more than CAN$100,000?  26600   1 Yes  2    No
+If yes, complete Form T1135, Foreign Income Verification Statement. There are substantial penalties for not filing
+Form T1135 by the due date. For more information, see Form T1135.
+X
+Consent to share contact information - Organ and tissue donor registry
+I authorize the CRA to provide my name and email address to Ontario Health so that Ontario Health
+(Trillium Gift of Life) may contact or send information to me by email about organ and tissue donation.
+For more information about organ and tissue donation 
+in Canada, go to canada.ca/organ-tissue-donation.1  Yes   2     No 
+Note: You are not consenting to organ and tissue donation when you authorize the CRA to share your 
+contact information with Ontario Health. Your authorization is only valid for the tax year for which you are
+filling this tax return. Your information will only be collected under the Ontario Gift of Life Act.
+Page 2 of 8
+5006-R E (24)
+Protected B when completed
+Step 1 - Identification and other information (continued)
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+10100
+10105
+10120
+10130
+10400
+113009,479 82
+1140012,192 96
+11410
+11500
+11600
+11700
+11701
+Employment insurance (EI) and other benefits (box 14 of the T4E slip)11900
+EI maternity and parental benefits, and
+provincial parental insurance plan (PPIP) benefits11905
+1200041,400 00
+1201041,400 00
+12100
+Net partnership income (limited or non-active partners only)12200
+12500
+Rental income (see Guide T4036)1259912600
+12700
+12701-
+=
+1279912800
+129006,046 80
+12905
+12906
+13000
+Taxable scholarships, fellowships, bursaries and artists' project grants13010
+69,119 58
+1349913500
+1369913700
+1389913900
+1409914100
+1429914300
+0 00
+69,119 58
+14400
+14500
+Net federal supplements paid (box 21 of the T4A(OAS) slip)14600
+14700
+Line 30 plus line 34 Total income 1500069,119 58
+Page 3 of 8
+5006-R E (24)
+Protected B when completed
+Complete only the lines that apply to you, unless stated otherwise. You can find more information about the lines on this return
+by going to canada.ca/line-xxxxx and replacing "xxxxx" with any five-digit line number from this
+return. For example, go to canada.ca/line-10100 for information about line 10100.
+Step 2 - Total income
+As a resident of Canada, you need to report your income from all sources inside and outside Canada.
+Employment income (box 14 of all T4 slips)  1
+Tax-exempt income for emergency services volunteers
+Commissions included on line 10100 (box 42 of all T4 slips)
+Wage-loss replacement contributions 
+Other employment income   2
+Old age security (OAS) pension (box 18 of the T4A(OAS) slip)  3
+CPP or QPP benefits (box 20 of the T4A(P) slip)  4
+Disability benefits included on line 11400 (box 16 of the T4A(P) slip)
+Other pensions and superannuation   5
+Elected split-pension amount (complete Form T1032)  6
+Universal child care benefit (UCCB) (see the RC62 slip)  7
+UCCB amount designated to a dependant
+  8
+Taxable amount of dividends from taxable Canadian corporations (use Federal Worksheet):
+Amount of dividends (eligible and other than eligible)  9
+Amount of dividends (other than eligible)
+Interest and other investment income (use Federal Worksheet)  10
+  11
+Registered disability savings plan (RDSP) income (box 131 of the T4A slip)  12
+Gross Net   13
+Taxable capital gains (complete Schedule 3)  14
+Capital gains reduction (complete Schedule 3)  15
+Line 14 minus line 15   16
+Support payments received (see Guide P102)  Total Taxable amount   17
+Registered retirement savings plan (RRSP) income (from all T4RSP slips)  18
+Taxable first home savings account (FHSA) income (see the T4FHSA slip)  19
+Taxable FHSA income – other (see the T4FHSA slip)  20
+Other income (specify):   21
+  22
+Add lines 1 to 13 and lines 16 to 22.  23
+Self-employment income (see Guide T4002):
+Business incomeGross Net   24
+Professional incomeGross Net   25
+Commission incomeGross Net   26
+Farming incomeGross Net   27
+Fishing incomeGross Net   28
+Add lines 24 to 28.Net self-employment income    29
+Line 23 plus line 29  30
+Workers' compensation benefits (box 10 of the T5007 slip)  31
+Social assistance payments  32
+  33
+Add lines 31 to 33 (see line 25000 in Step 4).    34
+  35
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+69,119 58
+20600
+Registered pension plan (RPP) deduction
+(box 20 of all T4 slips and box 032 of all T4A slips)20700
+20800
+20805
+20810
+Deduction for elected split-pension amount (complete Form T1032)210003,023 40
+Annual union, professional or like dues (receipts and box 44 of all T4 slips)21200
+Universal child care benefit (UCCB) repayment (box 12 of all RC62 slips)21300
+21400
+21500
+2169821699
+21700
+21900
+2199922000
+Carrying charges, interest expenses and other expenses
+(use Federal Worksheet)22100
+Deduction for CPP or QPP contributions on self-employment income and
+other earnings (complete Schedule 8 or Form RC381, whichever applies)22200
+Deduction for CPP or QPP enhanced contributions on employment income
+(complete Schedule 8 or Form RC381, whichever applies) (maximum $838) 22215
+22400
+22900
+23100
+23200
+233003,023 403,023 40
+2340066,096 18
+23500
+Line 56 minus line 57 (if negative, enter "0")
+If negative, you may have a non-capital loss (see Form T1A) and the negative amount
+is to be used for certain calculations (go to canada.ca/line-23600) Net income 2360066,096 18
+Page 4 of 8
+5006-R E (24)
+Protected B when completed
+Step 3 - Net income
+Enter the amount from line 35 of the previous page.  36
+Pension adjustment 
+(box 52 of all T4 slips and box 034 of all T4A slips)
+   37
+RRSP deduction (see Schedule 7 and attach receipts)   38
+FHSA deduction  (see Schedule 15 and attach receipts)   39
+Pooled registered pension plan (PRPP) employer contributions
+(amount from your PRPP contribution receipts)
+   40
+   41
+   42
+Child care expenses (complete Form T778)   43
+Disability supports deduction (complete Form T929)   44
+Business investment loss (see Guide T4037)
+GrossPeriod 1 Period 2 
+Allowable business investment loss deduction   45
+Moving expenses (complete Form T1-M)   46
+Support payments made (see Guide P102)
+Total Allowable deduction   47
+   48
+  49
+  50
+Exploration and development expenses (complete Form T1229)   51
+Other employment expenses (see Guide T4044)   52
+Clergy residence deduction (complete Form T1223)   53
+Other deductions (specify):     54
+Add lines 37 to 54.   55
+Line 36 minus line 55 (if negative, show in brackets)Net income before adjustments   56
+Social benefits repayment:
+Complete the chart for line 23500 using your Federal Worksheet if one or more of the following apply:
+ You entered an amount for EI and other benefits on line 11900 and the amount on line 23400 is more than $79,000
+ You entered an amount for OAS pension on line 11300 or net federal supplements paid on
+line 14600 and the amount on line 23400 is more than $90,997
+If not, enter "0" on line 23500.  57
+   58
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+66,096 18
+24400
+24900
+24901
+Other payments deduction (enter the amount from line 14700 if you did
+not enter an amount on line 14600; otherwise, use Federal Worksheet)25000
+25100
+25200
+25300
+25395
+25400
+25500
+25600
+25700
+66,096 18
+25999
+2600066,096 18
+Line 26000 is
+$55,867 or less
+Line 26000 is
+more
+than $55,867
+but not more
+than $111,733
+Line 26000 is
+more
+than $111,733
+but not more
+than $173,205
+Line 26000 is
+more
+than $173,205
+but not more
+than $246,752
+Line 26000 is
+more than 
+$246,752
+66,096 18
+--   55,867 00-  111,733 00-  173,205 00-  246,752 00
+=0 00=   10,229 18===
+x15x20.5x26x29x33
+==    2,096 98===
++0 00+    8,380 05+   19,832 58+   35,815 30+   57,143 93
+Federal tax on
+taxable income==   10,477 03===
+3000015,705 00
+Age amount (if you were born in 1959 or earlier) (use Federal Worksheet)(maximum $8,790) 301005,524 32
+30300
+30400
+Canada caregiver amount for spouse or common-law partner, or eligible dependant age 18 or older
+(complete Schedule 5)30425
+30450
+304992,616
+Canada caregiver amount for infirm children under 18 years of age (see Schedule 5)
+Number of children you are claiming this amount for  x $  =30500
+Add lines 82 to 88.21,229 32
+Page 5 of 8
+5006-R E (24)
+Protected B when completed
+Step 4 - Taxable income
+Enter the amount from line 58 of the previous page.  59
+Canadian Armed Forces personnel and police deduction
+(box 43 of all T4 slips)  60
+Security options deductions (boxes 39, 41, 91, and 92 of T4 slips or see Form T1212)  61
+Additional security options deduction (use Federal Worksheet)  62
+  63
+Limited partnership losses of other years  64
+Non-capital losses of other years  65
+Net capital losses of other years  66
+Capital gains deduction for qualifying business transfer
+(complete Form T2048)  67
+Capital gains deduction (complete Form T657)  68
+Northern residents deductions (complete Form T2222)  69
+Additional deductions (specify):  70
+Add lines 60 to 70.   71
+Line 59 minus line 71 (if negative, show in brackets) 72
+Capital gains reduction add-back (complete Schedule 3) 73
+Line 72 plus line 73 (if negative, enter "0") Taxable income   74
+Step 5 – Federal tax  
+Part A – Federal tax on taxable income
+Use the amount from line 26000 to complete the appropriate column below.
+Amount from line 26000  75
+Line 75 minus line 76  76
+(cannot be negative)  77
+Line 77 multiplied by the % % % % %  78
+percentage from line 78  79
+Line 79 plus line 80  80
+  81
+Enter the amount from line 81 on line 124 and continue at line 82.
+Part B – Federal non-refundable tax credits
+Basic personal amount:
+If the amount on line 23600 is $173,205 or less, enter $15,705.
+If the amount on line 23600 is $246,752 or more, enter $14,156.
+Otherwise, use the Federal Worksheet to calculate the amount to enter.(maximum $15,705)   82
+  83
+Spouse or common-law partner amount (complete Schedule 5)  84
+Amount for an eligible dependant (complete  Schedule 5)  85
+  86
+Canada caregiver amount for other infirm dependants age 18 or older (complete Schedule 5)  87
+  88
+  89
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+Enter the amount from line 89 of the previous page.21,229 32
+30800
+31000
+31200
+31217
+Volunteer firefighters' amount (VFA)31220
+Search and rescue volunteers' amount (SRVA)31240
+Canada employment amount:
+Enter whichever is less: $1,433 or line 1 plus line 2.31260
+31270
+31285
+31300
+31350
+314002,000 00
+23,229 32
+Disability amount for self
+(if you were under 18 years of age, use Federal Worksheet; if not, claim $9,872)31600
+31800
+23,229 32
+31900
+32300
+32400
+32600
+23,229 32
+33099
+66,096 181,982 89
+1,982 89
+Allowable amount of medical expenses for other dependants
+(use Federal Worksheet)33199
+33200
+3350023,229 32
+15
+338003,484 40
+34900
+Line 121 plus line 122Total federal non-refundable tax credits  350003,484 40
+Page 6 of 8
+5006-R E (24)
+Protected B when completed
+Part B – Federal non-refundable tax credits (continued)
+  90
+Base CPP or QPP contributions (complete Schedule 8 or Form RC381, whichever applies):
+through employment income  91
+on self-employment income and other earnings 92
+Employment insurance premiums:
+through employment
+(boxes 18 and 55 of all T4 slips)(maximum $1,049.12)  93
+on self-employment and other eligible earnings 
+(complete Schedule 13) 94
+  95
+  96
+  97
+Home buyers' amount(maximum $10,000)   98
+Home accessibility expenses (use Federal Worksheet)(maximum $20,000)   99
+Adoption expenses  100
+Digital news subscription expenses(maximum $500)   101
+Add lines 91 to 101.   102
+Pension income amount (use Federal Worksheet)(maximum $2,000)   103
+Add lines 90, 102, and 103.  104
+  105
+Disability amount transferred from a dependant (use Federal Worksheet)  106
+Add lines 104 to 106.  107
+Interest paid on your student loans (see Guide P105)  108
+Your tuition, education, and textbook amounts (complete Schedule 11)  109
+Tuition amount transferred from a child or grandchild  110
+Amounts transferred from your spouse or common-law partner (complete Schedule 2)  111
+Add lines 107 to 111.  112
+Medical expenses for self, spouse or common-law partner
+and your dependent children under 18 years of age 113
+Amount from line 23600 x 3% = 114
+Enter whichever is less: $2,759 or the amount from line 114. 115
+Line 113 minus line 115 (if negative, enter "0") 116
+ 117
+Line 116 plus line 117   118
+Line 112 plus line 118  119
+Federal non-refundable tax credit rate %  120
+Line 119 multiplied by the percentage from line 120  121
+Donations and gifts (complete Schedule 9)  122
+  123
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+10,477 03
+40424
+4040010,477 03
+3,484 40
+404253,738 46
+40427
+7,222 867,222 86
+429003,254 17
+3,254 17
+40500
+3,254 17
+0 00
+3,254 17
+0 00
+Line 137 minus line 138 (if negative, enter "0")Federal tax  406003,254 17
+4090041000
+41200
+41300
+Labour-sponsored funds tax credit 
+Net cost of shares of a provincially
+registered fundAllowable credit 41400
+41600
+Line 139 minus line 143 (if negative, enter "0")417003,254 17
+41500
+41800
+Add lines 144 to 146.Net federal tax 420003,254 17
+3,254 17
+CPP contributions payable on self-employment income and other earnings
+(complete Schedule 8 or Form RC381, whichever applies)42100
+42120
+42200
+Provincial or territorial tax 
+(complete and attach your provincial or territorial Form 428, even if the result is "0") 428002,443 04
+Add lines 148 to 152.Total payable 435005,697 21
+Page 7 of 8
+5006-R E (24)
+Protected B when completed
+Part C - Net federal tax
+Enter the amount from line 81.   124
+Federal tax on split income (TOSI) (complete Form T1206)  125
+Line 124 plus line 125   126
+Amount from line 35000  127
+Federal dividend tax credit (use Federal Worksheet) 128
+Minimum tax carryover (complete Form T691) 129
+Add lines 127 to 129.   130
+Line 126 minus line 130 (if negative, enter "0")Basic federal tax   131
+Federal surtax on income earned outside Canada (complete Form T2203)  132
+Line 131 plus line 132  133
+Federal foreign tax credit (complete Form T2209)  134
+Line 133 minus line 134  135
+Recapture of investment tax credit (complete Form T2038(IND))  136
+Line 135 plus line 136  137
+Federal logging tax credit  138
+ 139
+Federal political contribution tax credit (use Federal Worksheet)
+Total federal political contributions
+(attach receipts)(maximum $650)   140
+Investment tax credit (complete Form T2038(IND))  141
+  142
+Add lines 140 to 142.    143
+   144
+Advanced Canada workers benefit (ACWB) (complete Schedule 6)  145
+Special taxes   146
+   147
+Step 6 - Refund or balance owing
+Amount from line 42000   148
+  149
+Employment insurance premiums payable on self-employment and other eligible earnings
+(complete Schedule 13)   150
+Social benefits repayment (amount from line 23500)   151
+  152
+  153
+
+Mian, Farooq   SIN: 110 416 021   Printed: 2025/07/16 06:54
+5,697 21
+43700
+44000
+44800
+45000
+45200
+45300
+45350
+Multigenerational home renovation tax credit (MHRTC)
+(complete Schedule 12)45355
+45400
+45600
+Employee and partner GST/HST rebate (complete Form GST370)45700
+4680025 00
+Eligible educator school supply tax credit
+ Supplies expenses(maximum $1,000)    X %      =46900
+47555
+47556
+47600
+Provincial or territorial credits (complete Form 479, if it applies) 47900
+Add lines 155 to 170.Total credits  48200
+Line 154 minus line 171
+If the amount is negative, enter it on line 48400 below.
+If the amount is positive, enter it on line 48500 below.Refund or balance owing 5,697 21
+48400Refund  
+For more information and ways to enrol for direct deposit,
+go to canada.ca/cra-direct-deposit.
+485005,697 21Balance owing  
+Your balance owing is due no later than April 30, 2025.
+For more information on how to make your payment,
+go to canada.ca/payments.
+Ontario opportunities fund
+You can help reduce Ontario's debt by completing this area to donate
+some or all of your 2024 tax refund to the Ontario opportunities fund.
+Please see the provincial pages for details.
+Your donation to the
+Ontario opportunities fund46500
+46600
+Amount from line 48400 above  1
+  2
+Net refund (line 1 minus line 2)  3
+(416) 710-0153
+2025-07-16
+I certify that the information given on this return and in any
+attached document is correct, complete and fully discloses
+all of my income.
+Sign here
+It is a serious offence to make a false return.
+Telephone number:
+Date:
+X
+Q2629
+Clearhouse LLP
+(647) 969-7382
+If this return was completed by a tax professional, tick the
+applicable box and provide the following information:
+Was a fee charged? 49000   1 Yes 2    No
+EFILE number (if applicable): 48900 
+Name of tax professional:
+Telephone number:
+Do not use
+this area.
+4870048800
+     48600  
+Page 8 of 8
+5006-R E (24)
+Protected B when completed
+Step 6 - Refund or balance owing (continued)
+Enter the amount from line 153 of the previous page. 154
+Total income tax deducted (amounts from all Canadian slips)  155
+Refundable Quebec abatement   156
+CPP or QPP overpayment   157
+Employment insurance (EI) overpayment   158
+Refundable medical expense supplement (use Federal Worksheet)  159
+Canada workers benefit (CWB) (complete Schedule 6)  160
+Canada training credit (CTC) (complete Schedule 11)  161
+  162
+Refund of investment tax credit (complete Form T2038(IND))  163
+Part XII.2 tax credit (box 38 of all T3 slips and box 209 of all T5013 slips)  164
+  165
+  166
+Canadian journalism labour tax credit (box 236 of all T5013 slips)  167
+Return of fuel charge proceeds to farmers tax credit (complete Form T2043)  168
+Tax paid by instalments  169
+  170
+  171
+ 172
+Personal information (including the SIN) is collected and used to administer or enforce the Income Tax Act and related programs and activities including
+administering tax, benefits, audit, compliance, and collection. The information collected may be disclosed to other federal, provincial, territorial, aboriginal, or
+foreign government institutions to the extent authorized by law. Failure to provide this information may result in paying interest or penalties, or in other actions.
+Under the Privacy Act, individuals have a right of protection, access to and correction of their personal information, and to file a complaint with the Privacy
+Commissioner of Canada regarding the handling of their personal information. Refer to Personal Information Bank CRA PPU 005 on Info Source at 
+canada.ca/cra-info-source.
