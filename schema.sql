@@ -151,6 +151,25 @@ CREATE TABLE form_family_members (
     installments_required BOOLEAN DEFAULT false,
     personal_tax_payment DECIMAL(12,2),
     
+    -- NEW: Individual fields per family member
+    hst_draft_or_final VARCHAR(50) DEFAULT 'N/A',
+    hst_installments_required BOOLEAN DEFAULT false,
+    payment_required BOOLEAN DEFAULT false,
+    other_notes TEXT,
+    -- NEW: Individual Personal Tax Summary fields per family member
+    prior_periods_balance VARCHAR(50) DEFAULT '0',
+    installments_during_year VARCHAR(50) DEFAULT '0',
+    installments_after_year VARCHAR(50) DEFAULT '0',
+    tax_payment_due_date VARCHAR(100),
+    return_filing_due_date VARCHAR(20) DEFAULT 'April 30',
+    -- NEW: Individual HST fields per family member
+    hst_prior_balance VARCHAR(50) DEFAULT '0',
+    hst_payable VARCHAR(50) DEFAULT '0',
+    hst_installments_during VARCHAR(50) DEFAULT '0',
+    hst_installments_after VARCHAR(50) DEFAULT '0',
+    hst_payment_due VARCHAR(50) DEFAULT '0',
+    hst_due_date VARCHAR(20) DEFAULT 'April 30',
+    
     -- Order in the form
     display_order INTEGER DEFAULT 0,
     

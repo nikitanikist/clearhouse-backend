@@ -176,13 +176,28 @@ exports.createForm = async (req, res) => {
         for (let i = 0; i < actualFormData.familyMembers.length; i++) {
           const member = actualFormData.familyMembers[i];
           await client.query(
-            'INSERT INTO form_family_members (id, form_id, client_name, signing_person, signing_email, is_primary, created_at, updated_at) VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW())',
+            'INSERT INTO form_family_members (id, form_id, client_name, signing_person, signing_email, hst_draft_or_final, hst_installments_required, payment_required, other_notes, prior_periods_balance, installments_during_year, installments_after_year, tax_payment_due_date, return_filing_due_date, hst_prior_balance, hst_payable, hst_installments_during, hst_installments_after, hst_payment_due, hst_due_date, is_primary, created_at, updated_at) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, NOW(), NOW())',
             [
               uuidv4(),
               formId,
               member.clientName || '',
               member.signingPerson || '',
               member.signingEmail || '',
+              member.hstDraftOrFinal || 'N/A',
+              member.hstInstallmentsRequired || false,
+              member.paymentRequired || false,
+              member.otherNotes || '',
+              member.priorPeriodsBalance || '0',
+              member.installmentsDuringYear || '0',
+              member.installmentsAfterYear || '0',
+              member.taxPaymentDueDate || '',
+              member.returnFilingDueDate || 'April 30',
+              member.hstPriorBalance || '0',
+              member.hstPayable || '0',
+              member.hstInstallmentsDuring || '0',
+              member.hstInstallmentsAfter || '0',
+              member.hstPaymentDue || '0',
+              member.hstDueDate || 'April 30',
               i === 0 // is_primary
             ]
           );
