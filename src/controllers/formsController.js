@@ -305,12 +305,73 @@ exports.getAllForms = async (req, res) => {
       return res.status(403).json({ error: 'Unauthorized role' });
     }
     
-    const result = await query(sqlQuery, params);
+    // First, fetch the forms
+    const formsResult = await query(sqlQuery, params);
+    const forms = formsResult.rows;
     
-    res.json(result.rows);
+    // Now fetch family members for each form
+    const formsWithFamilyMembers = [];
+    
+    for (const form of forms) {
+      // Fetch family members for this form - only query columns that exist
+      const familyMembersResult = await query(
+        `SELECT 
+          id, form_id, client_name, signing_person, signing_email,
+          is_primary, created_at, updated_at
+        FROM form_family_members 
+        WHERE form_id = $1 
+        ORDER BY is_primary DESC, created_at ASC`,
+        [form.id]
+      );
+      
+      // Transform family members data to match frontend expectations
+      const familyMembers = familyMembersResult.rows.map(member => ({
+        id: member.id,
+        formId: member.form_id,
+        clientName: member.client_name,
+        signingPerson: member.signing_person,
+        signingEmail: member.signing_email,
+        isPrimary: member.is_primary,
+        createdAt: member.created_at,
+        updatedAt: member.updated_at,
+        // Get additional data from form_data JSON if available
+        hstDraftOrFinal: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstDraftOrFinal || 'N/A',
+        hstInstallmentsRequired: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsRequired || false,
+        paymentRequired: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.paymentRequired || false,
+        otherNotes: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.otherNotes || '',
+        priorPeriodsBalance: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.priorPeriodsBalance || '0',
+        installmentsDuringYear: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.installmentsDuringYear || '0',
+        installmentsAfterYear: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.installmentsAfterYear || '0',
+        taxPaymentDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.taxPaymentDueDate || '',
+        returnFilingDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.returnFilingDueDate || 'April 30',
+        hstPriorBalance: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPriorBalance || '0',
+        hstPayable: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPayable || '0',
+        hstInstallmentsDuring: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsDuring || '0',
+        hstInstallmentsAfter: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsAfter || '0',
+        hstPaymentDue: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPaymentDue || '0',
+        hstDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstDueDate || 'April 30',
+        // Add the filing detail fields that are stored in form_data
+        isT1135: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT1135 || false,
+        isT2091: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT2091 || false,
+        isT1032: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT1032 || false,
+        // Add calculated fields
+        taxesPayable: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.taxesPayable || '0',
+        amountOwing: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.amountOwing || '0'
+      }));
+      
+      // Add family members to the form
+      const formWithFamilyMembers = {
+        ...form,
+        familyMembers: familyMembers
+      };
+      
+      formsWithFamilyMembers.push(formWithFamilyMembers);
+    }
+    
+    res.json(formsWithFamilyMembers);
   } catch (error) {
-    // console.error('Error fetching forms:', error);
-    // console.error('Error stack:', error.stack);
+    console.error('Error fetching forms:', error);
+    console.error('Error stack:', error.stack);
     res.status(500).json({ error: 'Failed to fetch forms', details: error.message });
   }
 };
