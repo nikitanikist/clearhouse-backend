@@ -325,39 +325,45 @@ exports.getAllForms = async (req, res) => {
       );
       
       // Transform family members data to match frontend expectations
-      const familyMembers = familyMembersResult.rows.map(member => ({
-        id: member.id,
-        formId: member.form_id,
-        clientName: member.client_name,
-        signingPerson: member.signing_person,
-        signingEmail: member.signing_email,
-        isPrimary: member.is_primary,
-        createdAt: member.created_at,
-        updatedAt: member.updated_at,
-        // Get additional data from form_data JSON if available
-        hstDraftOrFinal: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstDraftOrFinal || 'N/A',
-        hstInstallmentsRequired: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsRequired || false,
-        paymentRequired: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.paymentRequired || false,
-        otherNotes: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.otherNotes || '',
-        priorPeriodsBalance: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.priorPeriodsBalance || '0',
-        installmentsDuringYear: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.installmentsDuringYear || '0',
-        installmentsAfterYear: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.installmentsAfterYear || '0',
-        taxPaymentDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.taxPaymentDueDate || '',
-        returnFilingDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.returnFilingDueDate || 'April 30',
-        hstPriorBalance: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPriorBalance || '0',
-        hstPayable: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPayable || '0',
-        hstInstallmentsDuring: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsDuring || '0',
-        hstInstallmentsAfter: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstInstallmentsAfter || '0',
-        hstPaymentDue: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstPaymentDue || '0',
-        hstDueDate: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.hstDueDate || 'April 30',
-        // Add the filing detail fields that are stored in form_data
-        isT1135: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT1135 || false,
-        isT2091: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT2091 || false,
-        isT1032: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.isT1032 || false,
-        // Add calculated fields
-        taxesPayable: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.taxesPayable || '0',
-        amountOwing: form.form_data?.familyMembers?.find(fm => fm.id === member.id)?.amountOwing || '0'
-      }));
+      const familyMembers = familyMembersResult.rows.map((member, index) => {
+        // Use index-based matching instead of ID-based matching to solve the mismatch issue
+        // The order is guaranteed: primary member (index 0), then secondary members (index 1, 2, etc.)
+        const memberData = form.form_data?.familyMembers?.[index] || {};
+        
+        return {
+          id: member.id,
+          formId: member.form_id,
+          clientName: member.client_name,
+          signingPerson: member.signing_person,
+          signingEmail: member.signing_email,
+          isPrimary: member.is_primary,
+          createdAt: member.created_at,
+          updatedAt: member.updated_at,
+          // Extract data from form_data JSON using index-based matching
+          hstDraftOrFinal: memberData.hstDraftOrFinal || 'N/A',
+          hstInstallmentsRequired: memberData.hstInstallmentsRequired || false,
+          paymentRequired: memberData.paymentRequired || false,
+          otherNotes: memberData.otherNotes || '',
+          priorPeriodsBalance: memberData.priorPeriodsBalance || '0',
+          installmentsDuringYear: memberData.installmentsDuringYear || '0',
+          installmentsAfterYear: memberData.installmentsAfterYear || '0',
+          taxPaymentDueDate: memberData.taxPaymentDueDate || '',
+          returnFilingDueDate: memberData.returnFilingDueDate || 'April 30',
+          hstPriorBalance: memberData.hstPriorBalance || '0',
+          hstPayable: memberData.hstPayable || '0',
+          hstInstallmentsDuring: memberData.hstInstallmentsDuring || '0',
+          hstInstallmentsAfter: memberData.hstInstallmentsAfter || '0',
+          hstPaymentDue: memberData.hstPaymentDue || '0',
+          hstDueDate: memberData.hstDueDate || 'April 30',
+          // Filing detail fields
+          isT1135: memberData.isT1135 || false,
+          isT2091: memberData.isT2091 || false,
+          isT1032: memberData.isT1032 || false,
+          // Financial fields
+          taxesPayable: memberData.taxesPayable || '0',
+          amountOwing: memberData.amountOwing || '0'
+        };
+      });
       
       // Add family members to the form
       const formWithFamilyMembers = {
