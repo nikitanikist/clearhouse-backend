@@ -248,6 +248,15 @@ app.get('/api/admins', authenticate, async (req, res) => {
 // Static files for uploads (if needed)
 app.use('/uploads', express.static(path.join(__dirname, '../storage/uploads')));
 
+
+// Serve frontend (React/Vite build files from dist)
+app.use(express.static(path.join(__dirname, '../../clearhouse-closeout-connect-1/dist')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../../clearhouse-closeout-connect-1/dist/index.html'));
+});
+
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({ 
